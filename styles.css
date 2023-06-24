@@ -1,0 +1,19 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .item-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn-decrease,
+  .btn-increase,
+  .btn-remove,
+  .btn-like {
+    margin-left: 5px;
+  }
+  
