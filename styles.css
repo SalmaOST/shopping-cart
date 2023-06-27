@@ -1,0 +1,36 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .item-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn-decrease,
+  .btn-increase,
+  .btn-remove,
+  .btn-like {
+    margin-left: 5px;
+  }
+body{
+  background-color: #1a81a0;
+  margin-left: 150px;
+  margin-right: 500px;
+  
+  }  
+.item-name{
+  color: black;
+  font-size: 20px;
+}
+#total-price{
+  font-size: 20px;
+  border-style: groove;
+  color: aliceblue;
+}
+h2{
+  color: aliceblue;
+}
